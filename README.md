@@ -12,8 +12,13 @@
 | --- | --- |
 | `+exec` | Executes a cfg file on startup |
 | `+cl_is_softened_locale 1` | Removes blood effects and visual clutter |
-| `-dev` | Skips EA intro on startup, can cause HUD flicker issues on NVIDIA cards |
-| `-anticheat_settings=SettingsDX11.json` | Forces the game to launch in DirectX11
+| `-anticheat_settings=SettingsDX11.json` | Forces the game to launch in DirectX11 |
+
+# How to disable the Intro
+- Go to Your Drive > Program Files > Steam > steamapps > common > Apex Legends > media
+- In this media file you should see two files named "intro.bik" and "respawn.bik"
+- What you have to do is rename both of these files to something else and KEEP THE .bik PORTION. DO NOT remove the .bik or delete these files.
+- Example: rename intro.bik and respawn.bik to apex.bik and legends.bik
 
 # Consistant Frame Caping
 - Capping FPS is good or bad? and How to cap it? Answer : [Watch this video](https://youtu.be/N8ZUqT6Tfiw)

@@ -20,8 +20,8 @@
 - In-game cap, Change fps_max 0 (in [autoexec.cfg](https://github.com/moffa89/Apex-Autoexec-2024/blob/main/autoexec.cfg) to your monitor hz because [here](https://youtu.be/_73gFgNrYVQ) (Lowest latency)
 - [RTSS](https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html) for framerate caping and it is the best in frametime consistancy (Adds some latency but smoother than in-game cap)
 
-![RTSS Settings](https://github.com/moffa89/Apex-Autoexec-2024/blob/main/RTSS_settings.png)
-![RTSS Settings_2](https://github.com/moffa89/Apex-Autoexec-2024/blob/main/RTSS_settings_2.png)
+![RTSS Settings](https://github.com/moffa89/Apex-Autoexec-2024/blob/main/RTSS/RTSS_settings.png)
+![RTSS Settings_2](https://github.com/moffa89/Apex-Autoexec-2024/blob/main/RTSS/RTSS_settings_2.png)
 
 # How to disable the Intro
 - Go to Your Drive > Program Files > Steam > steamapps > common > Apex Legends > media

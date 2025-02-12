@@ -1,17 +1,18 @@
-# Apex Legends Autoexec
-- Works with new Season 23
+# Apex Legends Autoexec & Tweaks
+- Works with new Season 24
 
 # How it Works
 1. Download [autoexec.cfg](https://github.com/moffa89/Apex-Autoexec-2024/blob/main/autoexec.cfg)
 2. Move [autoexec.cfg](https://github.com/moffa89/Apex-Autoexec-2024/blob/main/autoexec.cfg) to the games directory cfg folder (Usually in C:\Program Files (x86)\Steam\steamapps\common\Apex Legends\cfg).
 3. Rightclick on the game inside of Steam and go to "Properties".
 4. Switch to the "General" Tab.
-5. Add the command in launch options "+exec autoexec.cfg +cl_is_softened_locale 1 -anticheat_settings=SettingsDX11.json" (without the Quotation marks).
+5. Add the command in launch options "+exec autoexec.cfg +cl_is_softened_locale 1 -dev" (without the Quotation marks).
 
 | Command | Description |
 | --- | --- |
-| `+exec` | Executes a cfg file on startup |
+| `+exec autoexec` | Executes the autoexec.cfg file on startup |
 | `+cl_is_softened_locale 1` | Removes blood effects and visual clutter |
+| `-dev` | Skips EA intro on startup, can cause HUD flicker issues on NVIDIA cards |
 | `-anticheat_settings=SettingsDX11.json` | Forces the game to launch in DirectX11 |
 
 # Consistant Frame Caping
@@ -23,7 +24,7 @@
 ![RTSS Settings](https://github.com/moffa89/Apex-Autoexec-2024/blob/main/RTSS/RTSS_settings.png)
 ![RTSS Settings_2](https://github.com/moffa89/Apex-Autoexec-2024/blob/main/RTSS/RTSS_settings_2.png)
 
-# How to disable the Intro
+# How to disable the Intro the second way
 - Go to Your Drive > Program Files > Steam > steamapps > common > Apex Legends > media
 - In this media file you should see two files named "intro.bik" and "respawn.bik"
 - What you have to do is rename both of these files to something else and KEEP THE .bik PORTION. DO NOT remove the .bik or delete these files.
